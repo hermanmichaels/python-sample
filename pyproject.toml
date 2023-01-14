@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "myproject"
+version = "0.1.0"
+description = "Sample Python repository"
+authors = ["hermanmichaels <hrmnmichaels@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "3.10"
+matplotlib = "3.5.1"
+mypy = "0.910"
+numpy = "1.22.3"
+pytest = "7.1.2"
+black = "22.3.0"
+flake8 = "4.0.1"
+isort = "^5.10.1"
+
+[tool.poetry.dev-dependencies]
+
+[tool.black]
+line-length = 80
+target_version = ["py310"]
+
+[tool.isort]
+profile = "black"
+py_version = 310
+multi_line_output = 3
