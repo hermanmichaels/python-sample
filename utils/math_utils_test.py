@@ -9,7 +9,7 @@ from utils.math_utils import exponentiate
     "base, exponent, expected",
     [
         (2, np.zeros(3), np.ones(3)),
-        (2, np.linspace(1, 4, 4), np.asarray([2, 4, 8, 16])),
+        (2, np.linspace(1, 4, 4), np.asarray([1, 4, 8, 16])),
     ],
 )
 def test_sum(base: int, exponent: npt.NDArray, expected: npt.NDArray) -> None:
